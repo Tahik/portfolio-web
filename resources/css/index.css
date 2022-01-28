@@ -1,0 +1,33 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    height: 256px;
+    background-color: #C3DAEF;
+}
+.navbar-list {
+    position: absolute;
+    width: 336px;
+    height: 16px;
+    right: 255px;
+    top: 18px;
+    border: 1px solid black;
+}
+
+.navbar-list-item {
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.about {
+   
+}
+
+.tech-skills {
+    background-color: #C3DAEF;
+}
+#profile {
+
+}
