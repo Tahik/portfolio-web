@@ -1,33 +1,260 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    color: rgba(0, 0, 0, 0.66)
+
+}
+
+nav{
+    width: 21em;
+    position: relative;
+    text-align: center;
+    float: right;
+
+}
+
+header {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.66);
+
+}
+span {
+    font-weight: bold;
+    color:#85C1E9;
 }
 
 footer {
-    height: 256px;
-    background-color: #C3DAEF;
-}
-.navbar-list {
-    position: absolute;
-    width: 336px;
-    height: 16px;
-    right: 255px;
-    top: 18px;
-    border: 1px solid black;
-}
+    width: 90%;
+    min-width: 300px;
+    text-align: justify;
+    padding: 5%;
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color:  #85C1E9;
 
+}
 .navbar-list-item {
     display: inline;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 }
 
-.about {
+.about{
+    width: 90%;
+    min-width: 300px;
+    text-align: justify;
+    padding: 5%;
+    font-size: 1.5em;
+    left: 2em;
+}
+
+.tech-skills{
+    width: 90%;
+    min-width: 300px;
+    text-align: justify;
+    padding: 5%;
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color: #85C1E9 ;
+}
+
+.projects{
+    width: 90%;
+    min-width: 300px;
+    text-align: justify;
+    padding: 5%;
+    font-size: 1.5em;
+}
+
+
+#profile{
+    border-radius: 5%;
+    margin: 0;
+}
+
+/* Mesia query for mobile screens */
+@media only screen and (max-width: 480px) {
+    nav{
+        display: none;
+    }
+    #profile{
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+    #github{
+        position: absolute;
+        top: 3.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #linkedin{
+        position: absolute;
+        top: 7.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #google{
+        position: absolute;
+        top: 11.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 560px) {
+    nav {
+        width: 10em;
+        margin-top: 2em;
+    }
+    .navbar-list-item {
+        font-size: 1.2em;
+        display: block;
+        padding: 1em;
+    }
+
+    #profile{
+        margin-left: 2em;
+        margin-top: 0;
+        
+    }
+    #github{
+        position: absolute;
+        top: 5.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #linkedin{
+        position: absolute;
+        top: 9.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #google{
+        position: absolute;
+        top: 13.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-list-item {
+        font-size: 1.2em;
+
+    }
+    #profile{
+        margin-left: 2em;
+        margin-top: 4em;
+        
+    }
+    #github{
+        position: absolute;
+        top: 5.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #linkedin{
+        position: absolute;
+        top: 9.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #google{
+        position: absolute;
+        top: 13.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .navbar-list-item {
+        font-size: 1.2em;
+    }
    
+    #profile{
+        margin-left: 2em;
+        margin-top: 4em;
+        
+    }
+    #github{
+        position: absolute;
+        top: 5.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #linkedin{
+        position: absolute;
+        top: 9.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
+    #google{
+        position: absolute;
+        top: 13.2em;
+        left: 16em;
+        width: 2.8em;
+        height: auto;
+    }
 }
-
-.tech-skills {
-    background-color: #C3DAEF;
-}
-#profile {
-
+@media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    .navbar-list-item {
+        font-size: 1.2em;
+    }
+    .pictures {
+        min-height: 790px;
+    }
+    .about {
+        position: absolute;
+        width: 55%;
+        top: 1.5em;
+        left: 15em;
+        margin-right:auto ;
+    }
+    #profile{
+        position: relative;
+        margin-left: 7em;
+        margin-top: 8em;
+        
+    }
+    #github{
+        position: absolute;
+        top: 21em;
+        left: 7em;
+        width: 2.8em;
+        height: auto;
+    }
+    #linkedin{
+        position: absolute;
+        top: 21em;
+        left: 15.5em;
+        width: 2.8em;
+        height: auto;
+    }
+    #google{
+        position: absolute;
+        top: 21em;
+        left: 11.25em;
+        width: 2.8em;
+        height: auto;
+    }
 }
