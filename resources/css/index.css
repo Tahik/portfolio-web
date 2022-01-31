@@ -126,11 +126,9 @@ footer {
         display: block;
         padding: 1em;
     }
-
     #profile{
         margin-left: 2em;
         margin-top: 0;
-        
     }
     #github{
         position: absolute;
@@ -158,12 +156,10 @@ footer {
 @media only screen and (max-width: 768px) {
     .navbar-list-item {
         font-size: 1.2em;
-
     }
     #profile{
         margin-left: 2em;
         margin-top: 4em;
-        
     }
     #github{
         position: absolute;
@@ -187,15 +183,14 @@ footer {
         height: auto;
     }
 }
+
 @media only screen and (max-width: 1024px) {
     .navbar-list-item {
         font-size: 1.2em;
     }
-   
-    #profile{
+   #profile{
         margin-left: 2em;
         margin-top: 4em;
-        
     }
     #github{
         position: absolute;
@@ -219,6 +214,7 @@ footer {
         height: auto;
     }
 }
+
 @media only screen and (min-width: 1025px) and (max-width: 1600px) {
     .navbar-list-item {
         font-size: 1.2em;
@@ -233,7 +229,6 @@ footer {
         left: 15em;
         margin-right:auto ;
         border-left: 3px solid rgba(0, 0, 0, 0.66);
-
     }
     
     
@@ -284,12 +279,14 @@ footer {
         bottom: 12.8em;
     }
 }
+
 @media only screen and (min-width: 1600px) {
-   main{
+   body{
         max-width: 1440px;
         height:auto;
         margin: 0 auto;
     }
+
     .navbar-list-item {
         font-size: 1.2em;
     }
