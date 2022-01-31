@@ -12,10 +12,11 @@
     <header>
         <nav class='navbar'>
             <ul class='navbar-list'>
-                <li class='navbar-list-item'>About</li>
-                <li class='navbar-list-item'>Skills</li>
-                <li class='navbar-list-item'>Portfolio</li>
-                <li class='navbar-list-item'>Contact</li>
+                <li class='navbar-list-item'><a href="#about">About</a></li>
+                <li class='navbar-list-item'><a href="#tech-skills">Skills</a></li>
+                <li class='navbar-list-item'><a href="#projects">Portfolio</a></li>
+                <li class='navbar-list-item'>
+                   <a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -23,13 +24,14 @@
         <div class='profile'>
             <div class='pictures'>
             <img src="./resources/pictures/profile-pic.jpg" alt="tomas-rihak-profile-picture" id='profile'/>
-            <img src="./resources/pictures/github.png" alt="github-icon" id='github'/>
-            <img src="./resources/pictures/linkedin.png" alt="linkedin-icon" id='linkedin'>
-            <img src="./resources/pictures/google.png" alt="google-icon" id='google'>
+            <a href="https://github.com/Tahik" target='_blank'><img src="./resources/pictures/github.png" alt="github-icon" id='github'/></a>
+            <a href="https://www.linkedin.com/in/tomáš-rihák-70a84a3b/" target='_blank'><img src="./resources/pictures/linkedin.png" alt="linkedin-icon" id='linkedin'></a>
+            <a href="mailto:tomrihak@gmail.com"><img src="./resources/pictures/google.png" alt="google-icon" id='google'></a>
+            
         </div>
         
         
-        <div class='about'>
+        <div class='about' id='about'>
             <p><span>Hello!</span><p>
             <P>I’m <span>Tomas</span>,</P>  
                
@@ -43,7 +45,7 @@
         </div>
     </div>
         
-        <div class='tech-skills'>
+        <div class='tech-skills' id='tech-skills'>
             <h1>Tech skills</h1>
             <div class='skill-class' id='frontend'>
                 <h2>Frontend:</h2>
@@ -69,21 +71,22 @@
                 <p>Console, Git and GitHub</p>
             </div>
         </div>
-        <div class='projects'>
+        <div class='projects' id='projects'>
             <h1>My projects</h1>
             <div class='project-class'>
                 <h2>Ex-Umbrae</h2>
                 <p class='project-text'>Ex-Umbrae NFT Trading card game. In its current state, user can login by using MetaMask crypto wallet, mint NFT, display it in his/hers collection and validate uniqueness of NFT card on OpenSea testnet.</p>
-                <p class='project-page'>Live page</p>
-                <p class='project-code'>Code</p>
+                <p class='project-page'>
+                   <a href="https://ex-umbrae.netlify.app" target='_blank'>Live page</a></p>
+                <p class='project-code'><a href="https://github.com/Tahik/Le-Card-Game" target="_blank">Code</a></p>
                 <img src="./resources/pictures/ex-umbrae.png" alt="ex-umbrae-picture" class='project-picture'>
             </div>
         </div>
     </main>
-    <footer class='contact'>
+    <footer class='contact' id='contact'>
         <h2>Contact me</h2>
         <p>If you want to exchange experiences, are looking for a passionate Web developer, have a question or want to connect do not hesitate to contact me. I am happy to get in touch!</p>
-        <p>I am looking forward to your message via email or LinkedIn.</p>
+        <p>I am looking forward to your message via <a href="mailto:tomrihak@gmailcom" target="_blank">email</a>  or <a href="https://www.linkedin.com/in/tomáš-rihák-70a84a3b/" target='_blank'>LinkedIn</a>.</p>
     </footer> 
 </body>
 </html>

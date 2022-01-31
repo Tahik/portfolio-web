@@ -21,7 +21,7 @@ nav{
     position: relative;
     text-align: center;
     float: right;
-
+    
 }
 
 header {
@@ -44,8 +44,13 @@ footer {
     background-color:  #85C1E9;
 
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .navbar-list-item {
     display: inline;
+    
 }
 
 
@@ -77,7 +82,9 @@ footer {
     padding: 5%;
     font-size: 1.5em;
 }
-
+.contact a{
+    text-decoration: underline;
+}
 
 #profile{
     border-radius: 5%;
@@ -116,6 +123,7 @@ footer {
     }
 }
 
+/* Media query fixing jumping elements at this break point */
 @media only screen and (min-width: 481px) and (max-width: 560px) {
     nav {
         width: 10em;
@@ -153,6 +161,7 @@ footer {
     }
 }
 
+/* Media query for tablets */
 @media only screen and (max-width: 768px) {
     .navbar-list-item {
         font-size: 1.2em;
@@ -183,6 +192,7 @@ footer {
         height: auto;
     }
 }
+/* Media query for laptops and tablets*/
 
 @media only screen and (max-width: 1024px) {
     .navbar-list-item {
@@ -215,6 +225,7 @@ footer {
     }
 }
 
+/* Media query for computer monitors */
 @media only screen and (min-width: 1025px) and (max-width: 1600px) {
     .navbar-list-item {
         font-size: 1.2em;
@@ -230,8 +241,6 @@ footer {
         margin-right:auto ;
         border-left: 3px solid rgba(0, 0, 0, 0.66);
     }
-    
-    
     #profile{
         position: relative;
         margin-left: 7em;
@@ -280,6 +289,7 @@ footer {
     }
 }
 
+/* Media query for large monitors */
 @media only screen and (min-width: 1600px) {
    body{
         max-width: 1440px;
