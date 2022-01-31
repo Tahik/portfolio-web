@@ -48,6 +48,8 @@ footer {
     display: inline;
 }
 
+
+
 .about{
     width: 90%;
     min-width: 300px;
@@ -55,12 +57,13 @@ footer {
     padding: 5%;
     font-size: 1.5em;
     left: 2em;
+    
 }
 
 .tech-skills{
     width: 90%;
     min-width: 300px;
-    text-align: justify;
+    
     padding: 5%;
     font-size: 1.5em;
     color: whitesmoke;
@@ -81,7 +84,7 @@ footer {
     margin: 0;
 }
 
-/* Mesia query for mobile screens */
+/* Media query for mobile screens */
 @media only screen and (max-width: 480px) {
     nav{
         display: none;
@@ -229,7 +232,11 @@ footer {
         top: 1.5em;
         left: 15em;
         margin-right:auto ;
+        border-left: 3px solid rgba(0, 0, 0, 0.66);
+
     }
+    
+    
     #profile{
         position: relative;
         margin-left: 7em;
@@ -256,5 +263,89 @@ footer {
         left: 11.25em;
         width: 2.8em;
         height: auto;
+    }
+    #frontend {
+        width: 45%;
+    }
+    #backend {
+        width: 45%;
+        position: relative;
+        float: right;
+        bottom: 10.7em;
+    }
+
+    #bpractices {
+        width: 45%;
+    }
+    #tools {
+        width: 45%;
+        position: relative;
+        float: right;
+        bottom: 12.8em;
+    }
+}
+@media only screen and (min-width: 1600px) {
+   main{
+        max-width: 1440px;
+        height:auto;
+        margin: 0 auto;
+    }
+    .navbar-list-item {
+        font-size: 1.2em;
+    }
+    .pictures {
+        max-height: 612px;
+    }
+    .about {
+        position: relative;
+        width: 55%;
+        bottom: 12.5em;
+        left: 15em;
+        margin-right:auto ;
+        border-left: 3px solid rgba(0, 0, 0, 0.66);
+    }
+    #profile{
+        position: relative;
+        margin-left: 7em;
+        margin-top: 8em;
+    }
+    #github{
+        position: relative;
+        top:3.3em;
+        right:11.5em;
+        width: 2.8em;
+        height: auto;
+    }
+    #linkedin{
+        position: relative;
+        top:3.3em;
+        right:10.5em;
+        width: 2.8em;
+        height: auto;
+    }
+    #google{
+        position: relative;
+        top:3.3em;
+        right:9.5em;
+        width: 2.8em;
+        height: auto;
+    }
+    #frontend {
+        width: 45%;
+    }
+    #backend {
+        width: 45%;
+        position: relative;
+        float: right;
+        bottom: 10.7em;
+    }
+    #bpractices {
+        width: 45%;
+    }
+    #tools {
+        width: 45%;
+        position: relative;
+        float: right;
+        bottom: 12.8em;
     }
 }
